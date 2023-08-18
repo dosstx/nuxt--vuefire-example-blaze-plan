@@ -51,23 +51,21 @@ export default defineNuxtConfig({
     },
     auth: true,
 
-    appCheck: {
-      provider: 'ReCaptchaV3',
-      // site key, NOT secret key
-      key: '6LeS5q0nAAAAABH3u13ntLwuIOkiNjHlXJOXoN5T',
-      isTokenAutoRefreshEnabled: true,
-    },
+    // appCheck: {
+    //   provider: 'ReCaptchaV3',
+    //   // site key, NOT secret key
+    //   key: '6LeS5q0nAAAAABH3u13ntLwuIOkiNjHlXJOXoN5T',
+    //   isTokenAutoRefreshEnabled: true,
+    // },
 
     config: {
-      apiKey: 'AIzaSyBsdR5gT1fFBF5c8YDUw_4Qcg2E_C9Pwn8',
-      authDomain: 'nuxt-vuefire-example-blaze.firebaseapp.com',
-      databaseURL:
-        'https://nuxt-vuefire-example-blaze-default-rtdb.firebaseio.com',
-      projectId: 'nuxt-vuefire-example-blaze',
-      storageBucket: 'nuxt-vuefire-example-blaze.appspot.com',
-      messagingSenderId: '254121855253',
-      appId: '1:254121855253:web:c1e3357402843d829e411c',
-      measurementId: 'G-LL0HQ2E3J2',
+      apiKey: "AIzaSyBmi_GgpLar7mEc6sY45m7DOQ_RxDPM2lc",
+      authDomain: "nuxt-vuefire-2576f.firebaseapp.com",
+      projectId: "nuxt-vuefire-2576f",
+      storageBucket: "nuxt-vuefire-2576f.appspot.com",
+      messagingSenderId: "1025496429698",
+      appId: "1:1025496429698:web:ded72e04d514be6492309b",
+      measurementId: "G-J9FPX367L6"
     },
   },
 
